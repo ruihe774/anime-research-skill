@@ -1,0 +1,23 @@
+{
+  "author": {
+    "email": "ruihe774@outlook.com",
+    "name": "Rui He"
+  },
+  "description": "Research and discuss Japanese anime: resolve a show from any title, trace seasons, staff and cast, build per-episode plot summaries, and compare audience and critic opinions across Japanese, Chinese, Korean and English communities. For adults (18+)",
+  "displayName": "Bangumi Companion",
+  "homepage": "https://github.com/ruihe774/bangumi-companion",
+  "keywords": [
+    "anime",
+    "bangumi",
+    "japanese-anime",
+    "episode-summary",
+    "reception",
+    "fan-opinions",
+    "adults-only",
+    "skill"
+  ],
+  "license": "Unlicense",
+  "name": "bangumi-companion",
+  "repository": "https://github.com/ruihe774/bangumi-companion",
+  "version": "0.1.0"
+}
