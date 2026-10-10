@@ -5,7 +5,7 @@
   },
   "description": "Look up and research Japanese anime: resolve a show from any title, trace seasons, staff and cast, build per-episode plot summaries, and and survey audience and critic opinions across Japanese, Chinese, Korean and English communities, with sources labeled. Information retrieval and summarization only. For adults (18+)",
   "displayName": "Anime Research",
-  "homepage": "https://github.com/ruihe774/bangumi-companion",
+  "homepage": "https://github.com/ruihe774/anime-research-skill",
   "keywords": [
     "anime",
     "bangumi",
@@ -19,6 +19,6 @@
   ],
   "license": "Unlicense",
   "name": "anime-research",
-  "repository": "https://github.com/ruihe774/bangumi-companion",
+  "repository": "https://github.com/ruihe774/anime-research-skill",
   "version": "0.1.0"
 }
