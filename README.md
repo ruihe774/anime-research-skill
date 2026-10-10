@@ -39,13 +39,13 @@ This plugin is intended for adults aged 18 and over and is not designed for or d
 ## Installation
 
 ```
-/plugin install anime-research --marketplace ruihe774/bangumi-companion
+/plugin install anime-research --marketplace ruihe774/anime-research-skill
 ```
 
 Or load a local checkout directly while trying it out:
 
 ```
-claude --plugin-dir /path/to/anime-research
+claude --plugin-dir /path/to/anime-research-skill
 ```
 
 The skill (`anime-research`) then triggers automatically on anime questions; you don't need to name it.
