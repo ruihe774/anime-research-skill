@@ -29,7 +29,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
-UA = "bangumi-companion-skill/1.1 (+https://claude.ai)"
+UA = "anime-research-skill/1.1 (+https://claude.ai)"
 BASE = "https://cal.syoboi.jp"
 CATS = {"0": "その他", "1": "アニメ", "2": "ラジオ", "3": "テレビ", "4": "特撮",
         "5": "アニメ関連", "6": "メモ", "7": "OVA", "8": "映画", "10": "アニメ(終了/再放送)"}

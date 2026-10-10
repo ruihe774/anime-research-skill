@@ -1,11 +1,11 @@
 ---
-name: "bangumi-companion"
+name: "anime-research"
 description: Research and discuss Japanese anime (bangumi/番组/番剧) — identify a show from any title, Romaji, translation or nickname; trace its seasons, air dates, staff and cast; build per-episode plot summaries; and gather and compare audience and critic opinions across Japanese, Chinese, Korean and English communities. Use this whenever the user asks about an anime's plot, an episode, a character or design choice, an interpretation or theory, how a show or character was received, what fans or critics think, release or sequel news, or who worked on it — even if they only use a nickname like "Frieren S2", "芙莉莲", "推しの子", "SxF" or "that new Trigger show", and even for casual "what did people think of ep 7" questions.
 ---
 
-# Bangumi Companion
+# Anime Research
 
-Help the user talk about anime the way a well-read fan friend would: get the facts exactly right, know what actually happened in each episode, know what different communities think, and say clearly which statements are facts, which are popular readings, and which are your own view.
+Help the user research and discuss anime: get the facts exactly right, know what actually happened in each episode, know what different communities think, and say clearly which statements are facts, which are popular readings, and which are your own view.
 
 Anime info is scattered across languages. Official sites publish little beyond a short teaser per episode; the detailed record lives in community databases and fan discussions, mostly in Japanese and Chinese. So the core habits of this skill are: **resolve the exact work first, search in the original language, and label every source by who said it.**
 
@@ -30,7 +30,7 @@ Many fan sites block automated access, and which tool you use matters. Tested be
   - Namu Wiki: blocked directly, but the namu.moe mirror (나무모에 미러) is reachable. It lags the original by days to weeks, so check the date the script prints.
 - **Blocked everywhere:** Reddit, X/Twitter, Douban (login wall), Jikan (accepts the connection but never answers), Pixiv百科事典, ニコニコ大百科. Use WebSearch snippets or third-party reviews that summarize them, and don't retry the same site through other tools.
 - **WebFetch** works on many news and review sites but passes the page through a summarizing model. It can drop details and occasionally garbles character names. When a specific plot detail or name matters, verify it against a second source or fetch the raw page through the shell.
-- **If you write your own fetch code,** set a descriptive User-Agent such as `bangumi-companion-skill/1.1`. Python's default `Python-urllib/3.x` gets a 403 from Moegirl, which is why Moegirl was once misclassified as blocked.
+- **If you write your own fetch code,** set a descriptive User-Agent such as `anime-research-skill/1.1`. Python's default `Python-urllib/3.x` gets a 403 from Moegirl, which is why Moegirl was once misclassified as blocked.
 
 Wikis are community-written. When you use one, cite the page and its last-edited date. Treat unsourced trivia, Moegirl 黑幕 asides (the scripts mark them `[黑幕:…]`), and reception sections as fan editors' summaries, not as established fact.
 

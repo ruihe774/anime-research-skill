@@ -1,12 +1,12 @@
 {
-  "name": "bangumi-companion",
+  "name": "anime-research",
   "description": "A skill for researching and discussing Japanese anime",
   "owner": { "name": "Rui He", "email": "ruihe774@outlook.com" },
   "plugins": [
     {
-      "name": "bangumi-companion",
+      "name": "anime-research",
       "source": "./",
-      "description": "Research and discuss Japanese anime: identify shows, trace seasons, staff and cast, summarize episodes, and compare audience and critic opinions across languages. For adults (18+)"
+      "description": "Research and discuss Japanese anime: identify shows, trace seasons, staff and cast, summarize episodes, and and survey audience and critic opinions across languages. For adults (18+)"
     }
   ]
 }

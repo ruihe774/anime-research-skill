@@ -28,7 +28,7 @@ import sys
 import time
 import urllib.request
 
-UA = "Mozilla/5.0 (bangumi-companion-skill)"
+UA = "Mozilla/5.0 (anime-research-skill)"
 CMT_RE = re.compile(r'<div class="(?:message|cmt_sub_content)[^"]*">(.*?)</div>', re.S)
 
 

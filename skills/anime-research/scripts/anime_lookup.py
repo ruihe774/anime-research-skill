@@ -21,7 +21,7 @@ import sys
 import urllib.parse
 import urllib.request
 
-UA = "bangumi-companion-skill/1.0 (+https://claude.ai)"
+UA = "anime-research-skill/1.0 (+https://claude.ai)"
 TIMEOUT = 15
 
 ANILIST_QUERY = """

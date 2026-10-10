@@ -43,7 +43,7 @@ import urllib.parse
 import urllib.request
 from html.parser import HTMLParser
 
-UA = "bangumi-companion-skill/1.1 (+https://claude.ai)"
+UA = "anime-research-skill/1.1 (+https://claude.ai)"
 TIMEOUT = 25
 
 SKIP_CLASSES = ("navbox", "reference", "mw-editsection", "toc", "printfooter",

@@ -4,7 +4,7 @@ Which site to use for what. The access notes record what worked from the Claude 
 
 ## Access cheat sheet
 
-**The User-Agent matters.** Cloudflare-fronted sites here block Python's default `Python-urllib/3.x` and spoofed full browser strings. They let through curl's default and a descriptive custom UA such as `bangumi-companion-skill/1.1`. The scripts set one. Moegirl returns 403 to Python's default UA, which is the only reason it was once marked "blocked". Douban returns 418 to it, but stays blocked with any UA because of its login wall.
+**The User-Agent matters.** Cloudflare-fronted sites here block Python's default `Python-urllib/3.x` and spoofed full browser strings. They let through curl's default and a descriptive custom UA such as `anime-research-skill/1.1`. The scripts set one. Moegirl returns 403 to Python's default UA, which is the only reason it was once marked "blocked". Douban returns 418 to it, but stays blocked with any UA because of its login wall.
 
 | Reachable from the shell | Reachable only via a specific route (use the script) | Blocked: use search snippets |
 |---|---|---|
